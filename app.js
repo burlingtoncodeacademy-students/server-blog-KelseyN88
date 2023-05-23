@@ -8,6 +8,7 @@ const router = require('./controllers/routes.js')
 app.use(express.json())
 app.use('/routes', routesRouter)
 
+
 // if router starts with '/' apply router
 app.use('/', router)
 
